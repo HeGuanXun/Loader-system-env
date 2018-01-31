@@ -6,6 +6,10 @@ import org.keyczar.util.Base64Coder;
 
 import java.io.*;
 
+/**
+ * @author hegx
+ */
+
 public enum SecurityUtils {
 	
 	/** 业务加密工具*/

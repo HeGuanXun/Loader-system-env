@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="451a784d-f65a-41a3-835f-f02afcefd84a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/CryptManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/MD5Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SaltProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SecurityUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/Loader-system-env.iml" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/Loader-system-env.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/pom.xml" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SecurityUtils.java" afterPath="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SecurityUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../../LaoHe/Loader-system-env/out/" />
     <ignored path="$PROJECT_DIR$/../../LaoHe/Loader-system-env/target/" />
@@ -95,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaltProvider.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SaltProvider.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SaltProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="342">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -108,8 +99,8 @@
       <file leaf-file-name="SecurityUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SecurityUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1444">
-              <caret line="76" column="68" lean-forward="false" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="68" />
+            <state relative-caret-position="456">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="551">
+              <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
                 <element signature="e#866#867#0" expanded="true" />
                 <element signature="e#900#901#0" expanded="true" />
@@ -184,11 +175,11 @@
         <option value="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/orgin/CheckPlatformMoneyServiceImpl.java" />
         <option value="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/orgin/GetConnetData.java" />
         <option value="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/CryptManager.java" />
-        <option value="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SecurityUtils.java" />
         <option value="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/MD5Utils.java" />
         <option value="$PROJECT_DIR$/../../LaoHe/Loader-system-env/pom.xml" />
         <option value="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SaltProvider.java" />
         <option value="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/Person.java" />
+        <option value="$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SecurityUtils.java" />
       </list>
     </option>
   </component>
@@ -932,7 +923,7 @@
       <updated>1517387419820</updated>
       <workItem from="1517387427089" duration="1971000" />
       <workItem from="1517389801751" duration="1898000" />
-      <workItem from="1517393400940" duration="2650000" />
+      <workItem from="1517393400940" duration="2708000" />
     </task>
     <task id="LOCAL-00001" summary="GET方式调用远程接口">
       <created>1517394995098</created>
@@ -941,11 +932,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517394995098</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="加密工具">
+      <created>1517396081432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517396081432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6519000" />
+    <option name="totallyTimeSpent" value="6577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -1022,7 +1020,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GET方式调用远程接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="GET方式调用远程接口" />
+    <MESSAGE value="加密工具" />
+    <option name="LAST_COMMIT_MESSAGE" value="加密工具" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1261,28 +1260,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SaltProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/CryptManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="92" column="56" lean-forward="false" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SecurityUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" column="68" lean-forward="false" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1309,8 +1290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="551">
+          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
             <element signature="e#866#867#0" expanded="true" />
             <element signature="e#900#901#0" expanded="true" />
@@ -1321,6 +1302,24 @@
             <element signature="e#1126#1127#0" expanded="true" />
             <element signature="e#1172#1173#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../LaoHe/Loader-system-env/src/main/java/com/laohe/sign/SaltProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
