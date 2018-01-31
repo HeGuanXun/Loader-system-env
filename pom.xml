@@ -90,6 +90,24 @@
             <artifactId>jersey-client</artifactId>
             <version>2.22.1</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.google</groupId>
+            <artifactId>keyczar</artifactId>
+            <version>0.71g</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
