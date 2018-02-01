@@ -8,23 +8,19 @@ import java.sql.*;
  * @date 2017-06-29
  *
  */
-public class DBeePer {
+public class DataBaseUtils {
 
-    private String driver = "com.mysql.jdbc.Driver";
-
-    private String url = "jdbc:mysql://192.168.1.239:63306/hurong_proj_gd_szdrd?useUnicode=true&amp;characterEncoding=utf-8";
-    
-    
     private Connection con = null;
     private ResultSet res = null;
-
+    String driver = "com.mysql.jdbc.Driver";
+    String url = "jdbc:mysql://192.168.1.239:63306/hurong_proj_gd_szdrd?useUnicode=true&amp;characterEncoding=utf-8";
     private void DataBase() {
             try {
                 Class.forName(driver);
                 con = DriverManager.getConnection(url, "proxy", "dr2015");
             } catch (ClassNotFoundException e) {
                 // TODO Auto-generated catch block
-                  System.err.println("装载 JDBC/ODBC 驱动程序失败。" );  
+                System.err.println("装载 JDBC 驱动程序失败。" );
                 e.printStackTrace();
             } catch (SQLException e) {
                 // TODO Auto-generated catch block
@@ -33,8 +29,13 @@ public class DBeePer {
             }
     }
 
-    // 查询
-    public ResultSet  Search(String sql, String str[]) {
+    /**
+     *@Author:create by LaoHe
+     *@Description:查找
+     *@param: * @param sql,str[]
+     *@date:15:07 2018/2/1
+     */
+    public ResultSet  Search(String sql, String[] str) {
         DataBase();
         try {
             PreparedStatement pst =con.prepareStatement(sql);
@@ -52,8 +53,13 @@ public class DBeePer {
         return res;
     }
 
-    // 增删修改
-    public int AddU(String sql, String str[]) {
+    /**
+     *@Author:create by LaoHe
+     *@Description: 增删修改
+     *@param: * @param sql,str
+     *@date:15:09 2018/2/1
+     */
+    public int AddU(String sql, String[] str) {
         int a = 0;
         DataBase();
         try {

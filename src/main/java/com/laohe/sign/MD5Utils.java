@@ -95,7 +95,7 @@ public final class MD5Utils {
 		}
 		return null;
 	}
-	//文件最大字节数
+	/*文件最大字节数*/
 	private static final int MAX_BYTE_SIZE = 1024*1024*50;
 
 	private static Logger logger= LogManager.getLogger();

@@ -11,16 +11,16 @@ public class ExcelToDb {
 
     public static void main(String[] args) {
 
-        DBeePer db=new DBeePer();
+        DataBaseUtils db=new DataBaseUtils();
 
         //得到表格中所有的数据
-        List<Entity> listExcel=StuService.getAllByExcel("d:/blackcompany.xls");
+        List<Entity> listExcel= BlackCompanyService.getAllByExcel("d:/blackcompany.xls");
         System.out.println();
         System.out.println("----------------开始数数据！！！----------------------");
         System.out.println();
         System.out.println();
         for (Entity entity : listExcel) {
-            if (!StuService.isExist(entity.getBlackCompany())) {
+            if (!BlackCompanyService.isExist(entity.getBlackCompany())) {
                 //不存在就添加
                 String sql="insert into t_black_company (blackcompany) values(?)";
                 String[] str=new String[]{entity.getBlackCompany()};

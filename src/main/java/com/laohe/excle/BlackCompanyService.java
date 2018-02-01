@@ -15,15 +15,15 @@ import java.util.List;
  * @date 2017-06-29
  *
  */
-public class StuService {
+public class BlackCompanyService {
     /**
-     * 查询stu表中所有的数据
+     * 查询blackCompany表中所有的数据
      * @return 
      */
     public static List<Entity> getAllByDb(){
-        List<Entity> list=new ArrayList<Entity>();
+        List<Entity> list=new ArrayList<>();
         try {
-            DBeePer db=new DBeePer();
+            DataBaseUtils db=new DataBaseUtils();
             String sql="select * from t_black_company";
             ResultSet rs= db.Search(sql, null);
             while (rs.next()) {
@@ -83,7 +83,7 @@ public class StuService {
      */
     public static boolean isExist(String blackCompany){
         try {
-            DBeePer db=new DBeePer();
+            DataBaseUtils db=new DataBaseUtils();
             ResultSet rs=db.Search("select * from t_black_company where blackCompany=?", new String[]{blackCompany});
             if (rs.next()) {
                 System.out.println(blackCompany+"-------------------------------->已经存在");

@@ -7,6 +7,8 @@ package com.laohe.excle;
  */
 public class Entity {
 
+    private Long id;
+
     private String blackCompany;
 
     public Entity() {
@@ -26,5 +28,13 @@ public class Entity {
 
     public void setBlackCompany(String blackCompany) {
         this.blackCompany = blackCompany;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }
